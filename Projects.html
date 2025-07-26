@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects - Rahul's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: #0f0f23;
+      color: #e8eaed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar-modern {
+      background: rgba(15, 15, 35, 0.95) !important;
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-brand {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700;
+    }
+
+    .project-card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 255, 255, 0.1);
+    }
+
+    .btn-features {
+      background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+      color: white;
+      border: none;
+      border-radius: 30px;
+      padding: 10px 20px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn-features:hover {
+      box-shadow: 0 10px 20px rgba(0, 242, 254, 0.4);
+    }
+
+    .footer-modern {
+      background: rgba(15, 15, 35, 0.95);
+      backdrop-filter: blur(20px);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 2rem 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-modern fixed-top">
+    <div class="container">
+      <a class="navbar-brand">Rahul Portfolio</a>
+      <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="C:\Users\rahul\OneDrive\Desktop\Portfolio\Intro.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1y7FW_38mtwidk9HRaTSk62dRf_5aEdPw/view?usp=sharing" target="_blank" rel="noopener">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://github.com/RahulCh04" target="_blank" rel="noopener">GitHub</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Projects Section -->
+  <section class="container mt-5 pt-5">
+    <h2 class="mb-4 text-center">My Projects</h2>
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <h4>Automated Chatbot For Healthcare Using NLP And ML</h4>
+      <p>An automated chatbot for healthcare leveraging NLP and ML to provide personalized medical assistance, diagnostics, and support.</p>
+      <button class="btn btn-features" data-bs-toggle="collapse" data-bs-target="#features1">Features</button>
+      <div class="collapse mt-3" id="features1">
+        <ul>
+          <li>Predicts disease based on user input using Generative AI</li>
+          <li>Suggests relevant doctors based on symptoms</li>
+          <li>Offers 24/7 medical assistance through chat</li>
+          <li>Combines NLP, ML, and AI for smart health support</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <h4>Attendance Management System</h4>
+      <p>A Java based project to record the attendance of a student.</p>
+      <button class="btn btn-features" data-bs-toggle="collapse" data-bs-target="#features2">Features</button>
+      <div class="collapse mt-3" id="features2">
+        <ul>
+          <li>Provides login access for both teachers and admin</li>
+          <li>Teachers can enter attendance for students from different branches</li>
+          <li>Admin can manage student and teacher records</li>
+          <li>Both teacher and admin can view student attendance percentage</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <h4>Brick Breaker Game</h4>
+      <p>Developed using HTML, CSS, JavaScript.</p>
+      <button class="btn btn-features" data-bs-toggle="collapse" data-bs-target="#features3">Features</button>
+      <div class="collapse mt-3" id="features3">
+        <ul>
+          <li>The project is a browser-based 2D game where a ball breaks bricks using a paddle controlled by the player</li>
+          <li>It is built using HTML, CSS, JavaScript, and Bootstrap, and does not require installation or storage</li>
+          <li>The game includes three difficulty levels and runs on both mobile and desktop platforms</li>
+          <li>Key features include low latency, independent gameplay, and responsive design for cross-device compatibility</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-modern text-center">
+  <div class="d-flex justify-content-center gap-4">
+      <a href="https://www.linkedin.com/in/rahulch04/" target="_blank" rel="noopener" class="text-light fs-4">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://wa.me/917893889155" target="_blank" rel="noopener" class="text-light fs-4">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rahulchandra0405@gmail.com" target="_blank" rel="noopener" class="text-light fs-4" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
